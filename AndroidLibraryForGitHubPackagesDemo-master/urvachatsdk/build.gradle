@@ -104,9 +104,9 @@ repositories {
     maven {
         url "https://storage.googleapis.com/download.flutter.io"
     }
-    maven {
-        url "libs/repo"
-    }
+//    maven {
+//        url "libs/repo"
+//    }
     mavenCentral()
 }
 
@@ -118,7 +118,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
 
-    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
-    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
+//    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
+//    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
