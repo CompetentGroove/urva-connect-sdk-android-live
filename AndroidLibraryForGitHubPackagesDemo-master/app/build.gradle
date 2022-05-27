@@ -59,8 +59,6 @@ dependencies {
 // Replace with the groupd id / package id and version number of library as required
 //    implementation  'github.tobsef.hello-maven:1.2.3'
 
-    implementation 'com.github.CompetentGroove:urva-connect-sdk-android-live:'
-
 
 //    implementation 'competent.groove.urva:urvachatsdk:1.0.2'
 
