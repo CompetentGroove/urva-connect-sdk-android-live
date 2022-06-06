@@ -8,12 +8,6 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>io.flutter.plugins.sharedpreferences</groupId>
-      <artifactId>shared_preferences_android_release</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
       <artifactId>flutter_plugin_android_lifecycle_release</artifactId>
       <version>1.0</version>
@@ -26,14 +20,14 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.example.FlutterToast</groupId>
-      <artifactId>fluttertoast_release</artifactId>
+      <groupId>io.flutter.plugins.urllauncher</groupId>
+      <artifactId>url_launcher_android_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.urllauncher</groupId>
-      <artifactId>url_launcher_android_release</artifactId>
+      <groupId>com.example.FlutterToast</groupId>
+      <artifactId>fluttertoast_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
