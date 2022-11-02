@@ -138,6 +138,7 @@ repositories {
         url "libs/repo"
     }
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
