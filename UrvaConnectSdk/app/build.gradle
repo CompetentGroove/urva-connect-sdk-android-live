@@ -74,7 +74,7 @@ dependencies {
 //
 //    implementation 'com.github.CompetentGroove:urva-connect-sdk-android-live:1.0.7'
 
-    implementation 'com.github.CompetentGroove:urva-connect-sdk-android-live:1.0.14'
+//    implementation 'com.github.CompetentGroove:urva-connect-sdk-android-live:1.0.14'
 
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
