@@ -4,9 +4,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'maven-publish'
-
-group = 'com.github.jitpack'
-version = '1.0'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.Harpreetcompetent'
 
 android {
     compileSdkVersion 30
@@ -30,17 +29,46 @@ android {
 
 
 /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
-def githubProperties = new Properties()
-githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+//def githubProperties = new Properties()
+//githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+//
+//
+//def getVersionName = { ->
+//    return "1.0.2" // Replace with version Name
+//}
+//
+//def getArtificatId = { ->
+//    return "urvachatsdk" // Replace with library name ID
+//}
 
 
-def getVersionName = { ->
-    return "1.0.2" // Replace with version Name
-}
 
-def getArtificatId = { ->
-    return "urvachatsdk" // Replace with library name ID
-}
+//publishing {
+//    publications {
+//        bar(MavenPublication) {
+//            groupId 'competentgroove.urvaconnect.sdk' // Replace with group ID
+//            artifactId getArtificatId()
+//            version getVersionName()
+//            artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
+//        }
+//    }
+//
+//    repositories {
+//        maven {
+//            name = "GitHubPackages"
+//            /** Configure path of your package repository on Github
+//             *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
+//             */
+//            url = uri("https://maven.pkg.github.com/CompetentGroove/urva-connect-sdk-android-live")
+//
+//            credentials {
+//                /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
+//                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
+//                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+//            }
+//        }
+//    }
+//}
 
 //publishing {
 //    publications {
@@ -86,7 +114,7 @@ def getArtificatId = { ->
 //             *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
 //             */
 ////            url = uri("https://maven.pkg.github.com/harpreetcompetent/Urva-forms-sdk")
-//            url = uri("https://maven.pkg.github.com/competentgroove/urva-connect-sdk-android-live")
+//            url = uri("https://maven.pkg.github.com/CompetentGroove/urva-connect-sdk-android-live")
 //
 //
 //            credentials {
@@ -127,16 +155,3 @@ dependencies {
 
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.jitpack'
-                artifactId = 'android-example'
-                version = '1.0'
-            }
-        }
-    }
-}
