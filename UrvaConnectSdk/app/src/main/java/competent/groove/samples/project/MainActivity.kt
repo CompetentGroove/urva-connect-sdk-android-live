@@ -22,10 +22,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       // UrvaConnectConfig
+      //  val config = UrvaConnectConfig()
 
-        var urvachat = UrvaChat(this);
-     //   urvachat.init();
+        val urvachat = UrvaChat(this)
+       //    urvachat.init(config);
+
 
 
         //Initialise the main class from the Sample Android Library module

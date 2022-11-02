@@ -161,8 +161,8 @@ afterEvaluate {
 // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.urvaconnct'
-                artifactId = 'connectsdk'
+                groupId = 'com.github.CompetentGroove'
+                artifactId = 'urvaconnectsdk'
                 version = '1.1'
             }
         }
