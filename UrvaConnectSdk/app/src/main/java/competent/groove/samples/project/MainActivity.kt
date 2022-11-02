@@ -21,11 +21,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+//        orgCode: String?,
+//        username: String?,
+//        companyToken: String?,
+//        first_name: String?,
+//        last_name: String?
 
-      //  val config = UrvaConnectConfig()
+//        this.orgCode = orgCode
+//        this.username = username
+//        this.companyToken = companyToken
+//        this.first_name =first_name
+//        this.last_name=last_name
+
+
+        val config = UrvaConnectConfig("9122","harpreet","asdasd","harpreet","singh")
 
         val urvachat = UrvaChat(this)
-       //    urvachat.init(config);
+          urvachat.init(config);
 
 
 
