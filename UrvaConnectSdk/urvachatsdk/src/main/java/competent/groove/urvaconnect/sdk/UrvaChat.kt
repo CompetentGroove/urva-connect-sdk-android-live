@@ -86,18 +86,15 @@ class UrvaChat(context: Context) {
         config1 = config
         callMethodChannel()
     }
+
     private fun callMethodChannel() {
         val flutterEngine = FlutterEngine(context!!)
         flutterEngine.dartExecutor.executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault())
         FlutterEngineCache.getInstance().put(ENGINE_ID, flutterEngine)
         channel = MethodChannel(flutterEngine.dartExecutor, "competent.groove.convergesdk/sendinfo")
-
         if (config1 != null) {
             val data = getJson(config1!!)
             channel!!.invokeMethod("reportKey", data)
         }
-
     }
-
-
 }
