@@ -2,6 +2,7 @@ package competent.groove.samples.project
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import com.enefce.samples.androidlibdemo.R
 import competent.groove.urvachat.model.UrvaConnectConfig
 import competent.groove.urvaconnect.sdk.UrvaChat
@@ -40,7 +41,10 @@ class MainActivity : AppCompatActivity() {
           urvachat.init(config);
 
 
+        Handler().postDelayed({
+            //doSomethingHere()
 
+        }, 10000)
         //Initialise the main class from the Sample Android Library module
 //        val sampleAndroidLibMain = SampleAndroidLibMain()
 //        tv_welcome.text = sampleAndroidLibMain.welcomeString

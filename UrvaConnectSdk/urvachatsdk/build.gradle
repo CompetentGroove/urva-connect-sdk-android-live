@@ -163,8 +163,8 @@ afterEvaluate {
                 from components.release
 //                groupId = 'com.github.Vipinbalakrishnan'
 //                artifactId = 'ribbonlayout'
-                groupId = 'com.github.CompetentGroove'
-                artifactId = 'urvachatsdk'
+                groupId = 'com.github.Harpreetcompetent'
+                artifactId = 'UrvaConnectsdk'
                 version = '1.1'
             }
         }
