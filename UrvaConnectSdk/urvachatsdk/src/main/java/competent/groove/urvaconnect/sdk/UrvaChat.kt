@@ -20,7 +20,6 @@ class UrvaChat(context: Context) {
         fun getInstance(context: Context): UrvaChat {
             return UrvaChat(context)
         }
-
         fun showConversations(context: Context) {
             if (config1 != null) {
                 val data = getJson(config1!!)
@@ -29,8 +28,6 @@ class UrvaChat(context: Context) {
                 context.startActivity(intent)
             }
         }
-
-
         private fun getJson(config: UrvaConnectConfig): String? {
             val jsonObject = JSONObject()
             if (config.orgCode == null) {
@@ -85,14 +82,10 @@ class UrvaChat(context: Context) {
     init {
         this.context = context.applicationContext
     }
-
     fun init(config: UrvaConnectConfig) {
         config1 = config
         callMethodChannel()
     }
-
-
-
     private fun callMethodChannel() {
         val flutterEngine = FlutterEngine(context!!)
         flutterEngine.dartExecutor.executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault())

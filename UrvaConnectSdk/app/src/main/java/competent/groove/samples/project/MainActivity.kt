@@ -3,7 +3,8 @@ package competent.groove.samples.project
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.enefce.samples.androidlibdemo.R
-import competent.groove.urvaconnect.sdk.UrvaChat
+
+//import competent.groove.urvaconnect.sdk.UrvaChat
 
 //import competent.groove.urvaconnect.sdk.UrvaChat
 //import competent.groove.urvaconnect.sdk.UrvaChat
@@ -19,8 +20,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        var ass = UrvaChat
 
+//        var ass = Urva
 
 
         //Initialise the main class from the Sample Android Library module

@@ -8,8 +8,26 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>io.flutter.plugins.sharedpreferences</groupId>
+      <artifactId>shared_preferences_android_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
       <artifactId>flutter_plugin_android_lifecycle_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tekartik.sqflite</groupId>
+      <artifactId>sqflite_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.packageinfo</groupId>
+      <artifactId>package_info_plus_profile</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -20,14 +38,14 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.urllauncher</groupId>
-      <artifactId>url_launcher_android_profile</artifactId>
+      <groupId>com.example.FlutterToast</groupId>
+      <artifactId>fluttertoast_profile</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.example.FlutterToast</groupId>
-      <artifactId>fluttertoast_profile</artifactId>
+      <groupId>io.flutter.plugins.urllauncher</groupId>
+      <artifactId>url_launcher_android_profile</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
@@ -38,27 +56,39 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.connectivity</groupId>
+      <artifactId>connectivity_plus_profile</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_profile</artifactId>
-      <version>1.0.0-caaafc5604ee9172293eb84a381be6aadd660317</version>
+      <version>1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_profile</artifactId>
-      <version>1.0.0-caaafc5604ee9172293eb84a381be6aadd660317</version>
+      <version>1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_profile</artifactId>
-      <version>1.0.0-caaafc5604ee9172293eb84a381be6aadd660317</version>
+      <version>1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_profile</artifactId>
-      <version>1.0.0-caaafc5604ee9172293eb84a381be6aadd660317</version>
+      <version>1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
