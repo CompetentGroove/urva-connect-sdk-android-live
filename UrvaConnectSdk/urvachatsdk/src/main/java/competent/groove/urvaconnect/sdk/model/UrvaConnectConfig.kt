@@ -10,7 +10,6 @@ class UrvaConnectConfig {
     var first_name: String? = null
     var last_name: String? = null
 
-
     constructor(orgCode: String?, username: String?, companyToken: String?,first_name: String?, last_name: String? ) {
         this.orgCode = orgCode
         this.username = username
