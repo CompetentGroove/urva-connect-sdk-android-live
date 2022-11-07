@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 //        this.last_name=last_name
 
 
-//        val config = UrvaConnectConfig("9122","harpreet","asdasd","harpreet","singh")
+  //      val config = UrvaConnectConfig("9122","harpreet","asdasd","harpreet","singh")
 //
 //        val urvachat = UrvaChat(this)
 //          urvachat.init(config);

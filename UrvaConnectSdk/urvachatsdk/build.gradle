@@ -1,9 +1,9 @@
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-android'
 
 apply plugin: 'maven-publish'
-//apply plugin: 'com.github.dcendents.android-maven'
+
 group = 'com.github.Harpreetcompetent'
 
 android {
@@ -42,100 +42,14 @@ android {
 
 
 
-//publishing {
-//    publications {
-//        bar(MavenPublication) {
-//            groupId 'competentgroove.urvaconnect.sdk' // Replace with group ID
-//            artifactId getArtificatId()
-//            version getVersionName()
-//            artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
-//        }
-//    }
-//
-//    repositories {
-//        maven {
-//            name = "GitHubPackages"
-//            /** Configure path of your package repository on Github
-//             *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
-//             */
-//            url = uri("https://maven.pkg.github.com/CompetentGroove/urva-connect-sdk-android-live")
-//
-//            credentials {
-//                /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
-//                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-//                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
-//            }
-//        }
-//    }
-//}
-
-//publishing {
-//    publications {
-//        bar(MavenPublication) {
-//            groupId 'competent.groove.urva'
-//            artifactId getArtificatId()
-//            version getVersionName()
-//            artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
-//
-//            pom.withXml {
-//                final dependenciesNode = asNode().appendNode('dependencies')
-//                ext.addDependency = { Dependency dep, String scope ->
-//                    if (dep.group == null || dep.version == null || dep.name == null || dep.name == "unspecified")
-//                        return
-//                    final dependencyNode = dependenciesNode.appendNode('dependency')
-//                    dependencyNode.appendNode('groupId', dep.group)
-//                    dependencyNode.appendNode('artifactId', dep.name)
-//                    dependencyNode.appendNode('version', dep.version)
-//                    dependencyNode.appendNode('scope', scope)
-//                    if (!dep.transitive) {
-//                        final exclusionNode = dependencyNode.appendNode('exclusions').appendNode('exclusion')
-//                        exclusionNode.appendNode('groupId', '*')
-//                        exclusionNode.appendNode('artifactId', '*')
-//                    } else if (!dep.properties.excludeRules.empty) {
-//                        final exclusionNode = dependencyNode.appendNode('exclusions').appendNode('exclusion')
-//                        dep.properties.excludeRules.each { ExcludeRule rule ->
-//                            exclusionNode.appendNode('groupId', rule.group ?: '*')
-//                            exclusionNode.appendNode('artifactId', rule.module ?: '*')
-//                        }
-//                    }
-//                }
-//                configurations.compile.getDependencies().each { dep -> addDependency(dep, "compile") }
-//                configurations.api.getDependencies().each { dep -> addDependency(dep, "compile") }
-//                configurations.implementation.getDependencies().each { dep -> addDependency(dep, "runtime") }
-//            }
-//        }
-//    }
-//
-//    repositories {
-//        maven {
-//            name = "GitHubPackages"
-//            /** Configure path of your package repository on Github
-//             *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
-//             */
-////            url = uri("https://maven.pkg.github.com/harpreetcompetent/Urva-forms-sdk")
-//            url = uri("https://maven.pkg.github.com/CompetentGroove/urva-connect-sdk-android-live")
-//
-//
-//            credentials {
-//                /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
-//                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-//                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
-//            }
-//        }
-//
-//    }
-//}
-
-
-
 repositories {
     google()
-    maven {
-        url "https://storage.googleapis.com/download.flutter.io"
-    }
-    maven {
-        url "libs/repo"
-    }
+//    maven {
+//        url "https://storage.googleapis.com/download.flutter.io"
+//    }
+//    maven {
+//        url "libs/repo"
+//    }
     mavenCentral()
     mavenLocal()
 }
@@ -148,8 +62,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
 
-    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
-    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
+//    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
+//    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
@@ -163,7 +77,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.CompetentGroove'
-                artifactId = 'urva-connect-sdk-android-live'
+               artifactId = 'urva-connect-sdk-android-live'
                 version = '1.3'
             }
         }
