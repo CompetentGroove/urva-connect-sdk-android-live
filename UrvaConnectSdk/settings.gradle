@@ -6,7 +6,7 @@
 //        jcenter() // Warning: this repository is going to shut down soon
 //    }
 //}
-//rootProject.name = "UrvaConnectSdk"
+rootProject.name = "UrvaConnectSdk"
 include ':app'
 include ':urvachatsdk'
 
