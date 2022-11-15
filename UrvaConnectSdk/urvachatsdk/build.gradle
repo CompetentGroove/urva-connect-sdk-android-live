@@ -1,21 +1,37 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
 
-apply plugin: 'com.android.library'
+//apply plugin: 'com.android.library'
 //apply plugin: 'kotlin-android'
+//
+//apply plugin: 'maven-publish'
 
-apply plugin: 'maven-publish'
-
-group = 'com.github.Harpreetcompetent'
+//group = 'com.github.Harpreetcompetent'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 30
-        versionCode 3
-        versionName getVersionName()
+        versionCode 1
+        versionName "1.0"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles 'consumer-rules.pro'
+        consumerProguardFiles "consumer-rules.pro"
     }
+//    compileSdkVersion 30
+//    defaultConfig {
+//        minSdkVersion 23
+//        targetSdkVersion 30
+//        versionCode 3
+//        versionName getVersionName()
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        consumerProguardFiles 'consumer-rules.pro'
+//    }
 
     buildTypes {
         release {
@@ -23,6 +39,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+//    buildTypes {
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//        }
+//    }
 
 }
 
@@ -42,24 +69,10 @@ android {
 
 
 
-repositories {
-    google()
-    maven {
-        url "https://storage.googleapis.com/download.flutter.io"
-    }
-    maven {
-        url "libs/repo"
-    }
-    maven {
-        url 'https://maven.google.com'
-    }
-    mavenCentral()
-    mavenLocal()
-}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.aar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+   // implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
     testImplementation 'junit:junit:4.12'
@@ -72,6 +85,17 @@ dependencies {
 
 }
 
+repositories {
+    google()
+    maven {
+        url "https://storage.googleapis.com/download.flutter.io"
+    }
+    maven {
+        url "libs/repo"
+    }
+    mavenCentral()
+    mavenLocal()
+}
 afterEvaluate {
     publishing {
         publications {
@@ -81,7 +105,7 @@ afterEvaluate {
 
                 groupId = 'com.github.CompetentGroove'
                artifactId = 'urva-connect-sdk-android-live'
-                version = '1.4'
+                version = '1.3'
             }
         }
     }
