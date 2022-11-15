@@ -3,11 +3,11 @@ package competent.groove.urvaconnect.sdk
 import android.content.Context
 import android.util.Log
 import competent.groove.urvachat.model.UrvaConnectConfig
-import io.flutter.embedding.android.FlutterActivity
-import io.flutter.embedding.engine.FlutterEngine
-import io.flutter.embedding.engine.FlutterEngineCache
-import io.flutter.embedding.engine.dart.DartExecutor
-import io.flutter.plugin.common.MethodChannel
+//import io.flutter.embedding.android.FlutterActivity
+//import io.flutter.embedding.engine.FlutterEngine
+//import io.flutter.embedding.engine.FlutterEngineCache
+//import io.flutter.embedding.engine.dart.DartExecutor
+//import io.flutter.plugin.common.MethodChannel
 import org.json.JSONObject
 
 class UrvaChat(context: Context) {
@@ -16,16 +16,16 @@ class UrvaChat(context: Context) {
 
     companion object {
         var config1: UrvaConnectConfig? = null
-        private var channel: MethodChannel? = null
+     //   private var channel: MethodChannel? = null
         fun getInstance(context: Context): UrvaChat {
             return UrvaChat(context)
         }
         fun showConversations(context: Context) {
             if (config1 != null) {
                 val data = getJson(config1!!)
-                channel!!.invokeMethod("reportKey", data)
-                val intent = FlutterActivity.withCachedEngine("1").build(context)
-                context.startActivity(intent)
+         //       channel!!.invokeMethod("reportKey", data)
+//                val intent = FlutterActivity.withCachedEngine("1").build(context)
+//                context.startActivity(intent)
             }
         }
         private fun getJson(config: UrvaConnectConfig): String? {
@@ -88,13 +88,13 @@ class UrvaChat(context: Context) {
     }
 
     private fun callMethodChannel() {
-        val flutterEngine = FlutterEngine(context!!)
-        flutterEngine.dartExecutor.executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault())
-        FlutterEngineCache.getInstance().put(ENGINE_ID, flutterEngine)
-        channel = MethodChannel(flutterEngine.dartExecutor, "competent.groove.convergesdk/sendinfo")
-        if (config1 != null) {
-            val data = getJson(config1!!)
-            channel!!.invokeMethod("reportKey", data)
-        }
+//        val flutterEngine = FlutterEngine(context!!)
+//        flutterEngine.dartExecutor.executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault())
+//        FlutterEngineCache.getInstance().put(ENGINE_ID, flutterEngine)
+//        channel = MethodChannel(flutterEngine.dartExecutor, "competent.groove.convergesdk/sendinfo")
+//        if (config1 != null) {
+//            val data = getJson(config1!!)
+//            channel!!.invokeMethod("reportKey", data)
+//        }
     }
 }
