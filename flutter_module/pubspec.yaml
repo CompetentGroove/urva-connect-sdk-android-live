@@ -1,0 +1,79 @@
+name: flutter_module
+description: An example Flutter module.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+#  espresso: ^0.1.0+2
+#  flutter_lints: ^1.0.3
+  provider: ^6.0.0
+    #  # The following adds the Cupertino Icons font to your application.
+    #  # Use with the CupertinoIcons class for iOS style icons.
+#  cupertino_icons: ^1.0.2
+  socket_io_client: ^1.0.1
+    #  cross_connectivity: ^1.0.0
+#  connectivity: ^3.0.6
+  cross_connectivity: ^3.0.5
+  http: ^0.13.4
+  intl:
+# shared_preferences: ^0.5.12+4
+  shared_preferences: ^2.0.15
+  device_info_plus: ^3.2.3
+  package_info_plus: ^1.4.2
+#  tinycolor: ^1.0.3
+  cached_network_image: ^3.1.0
+  file_picker: ^4.6.1
+  path: ^1.6.4
+    #  #  cached_video_player: ^1.0.3
+  uuid: ^3.0.6
+    #  file_picker: ^2.1.7
+    #  file_picker_cross:
+#  toast: ^0.1.5
+    #  progress_dialog: ^1.2.4
+#  ars_progress_dialog: 0.0.1
+    #  video_player: ^2.1.15
+    #  audioplayers:
+    #  fluttertoast: ^8.0.7
+  js: ^0.6.3
+    #  location: ^3.2.4
+
+    #  url_launcher: ^5.4.5
+
+  url_launcher:  ^6.1.5
+  url_launcher_web: ^2.0.12
+
+  ndialog: ^4.1.1
+  tinycolor2:
+  fluttertoast: ^8.1.1
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - images/
+  # This section identifies your Flutter project as a module meant for
+  # embedding in a native host app.  These identifiers should _not_ ordinarily
+  # be changed after generation - they are used to ensure that the tooling can
+  # maintain consistency when adding or modifying assets and plugins.
+  # They also do not have any bearing on your native host application's
+  # identifiers, which may be completely independent or the same as these.
+  module:
+    androidX: true
+    androidPackage: competent.groove.urva_connect_sdk
+    iosBundleIdentifier: competent.groove.urva_connect_sdk

@@ -1,0 +1,1974 @@
+{
+  "status": 200,
+  "message": "Activity found",
+  "data": {
+    "id": 4016,
+    "s_id": null,
+    "tablename": "Games",
+    "description": null,
+    "f_type": "activity",
+    "f_sub_type": "",
+    "Fname": "df_G_8195",
+    "code_level": "G_8195",
+    "workflow": 39,
+    "collection_used": null,
+    "parent_id": 0,
+    "isactive": 1,
+    "createdby": null,
+    "createDate": "2019-08-09T05:00:47.000Z",
+    "modifiedby": 618,
+    "modifieddate": "2021-06-21T10:49:17.000Z",
+    "filter": "[]",
+    "update_count": 371,
+    "form_id": 4016,
+    "form_settings": [{
+      "general": {
+        "is_order": true,
+        "is_marks": true,
+        "is_visible_marks": true,
+        "is_lock_task_on_score": false,
+        "is_screen_pin": false,
+        "is_lock_task_on_screen_pin": false,
+        "is_collection": true,
+        "is_collection_restrict": false,
+        "is_collection_as": "open",
+        "show_collection_on": "none",
+        "qr_code": [{
+          "auto_id": 1,
+          "template_name": "Aadhaar",
+          "type": "XML",
+          "sub_type": "attribute"
+        }, {
+          "auto_id": 3,
+          "template_name": "Template",
+          "type": "XML",
+          "sub_type": "attribute"
+        }, {
+          "auto_id": 6,
+          "template_name": "Default boarding pass",
+          "type": "flight_boarding_pass",
+          "sub_type": "v1"
+        }, {
+          "auto_id": 7,
+          "template_name": "Test template",
+          "type": "XML",
+          "sub_type": "attribute"
+        }, {
+          "auto_id": 8,
+          "template_name": "test",
+          "type": "XML",
+          "sub_type": "attribute"
+        }],
+        "is_scheduler": false,
+        "followup": {
+          "is_followup": true,
+          "followup_restriction": "none",
+          "followup_from_task": "current",
+          "is_swap_values": false,
+          "swap_fields": [{
+            "from": "",
+            "to": ""
+          }],
+          "is_mobile_followup": true,
+          "state": [59],
+          "followup_fields": []
+        },
+        "fm_adv": false,
+        "public_adv": false,
+        "score_adv": false,
+        "state_adv": false,
+        "ocr": [{
+          "template": "default",
+          "library": "google",
+          "template_seperatar": ",",
+          "ml": "none"
+        }],
+        "collection": [{
+          "canonical_name": "df_CG_506",
+          "is_collection_restrict": false,
+          "is_collection_as": "open",
+          "show_collection_on": "none",
+          "show_collection_on_success": "",
+          "show_collection_on_failed": "",
+          "is_add_item_on_failed": true,
+          "new_collection_item_assignee": "self",
+          "expanded": false,
+          "is_collection_restrict_type": "user"
+        }, {
+          "canonical_name": "df_CG_506",
+          "is_collection_restrict": false,
+          "is_collection_as": "open",
+          "show_collection_on": "none",
+          "show_collection_on_success": "",
+          "show_collection_on_failed": "",
+          "is_add_item_on_failed": false,
+          "new_collection_item_assignee": "",
+          "expanded": false
+        }, {
+          "canonical_name": "df_BTU_16",
+          "is_collection_restrict": false,
+          "is_collection_as": "open",
+          "show_collection_on": "none",
+          "show_collection_on_success": "",
+          "show_collection_on_failed": "",
+          "is_add_item_on_failed": false,
+          "new_collection_item_assignee": "",
+          "expanded": false
+        }, {
+          "canonical_name": "df_CARMOS",
+          "is_collection_restrict": false,
+          "is_collection_as": "open",
+          "show_collection_on": "none",
+          "show_collection_on_success": "",
+          "show_collection_on_failed": "",
+          "is_add_item_on_failed": false,
+          "new_collection_item_assignee": "",
+          "expanded": false
+        }],
+        "order_adv": false,
+        "order_currency": "$",
+        "order_states": [57, 58, 59, 60, 61, 62, 63, 369],
+        "is_order_validation": false,
+        "scheduler_hr_before": 5,
+        "sch_adv": false,
+        "is_esign": false,
+        "is_ocr": true,
+        "primary_dark_color": "#b6c5cc",
+        "primary_color": "#721816",
+        "auto_allocation": {
+          "aa_states": [{
+            "from_state": 57,
+            "to_state": 58,
+            "expanded": true,
+            "is_aa_battery": false,
+            "minimum_battery_for_aa": "89",
+            "is_aa_attendance": false,
+            "is_current_location": true,
+            "is_pending_tasks": true,
+            "pending_taks": "3",
+            "is_aa_efficency": true,
+            "efficency_for_aa": "1",
+            "pending_taks_valuation": 1,
+            "efficency_valuation": 4,
+            "distance": "10",
+            "distance_valuation": 10
+          }]
+        },
+        "is_public_page": true,
+        "public_page_column": "12",
+        "pp_thankyou_text": "Thank you",
+        "pp_thankyou_btn_link": "https://www.feetport.com",
+        "pp_thankyou_btn_label": "Go to website",
+        "is_public_page_with_rich_content": false,
+        "is_allow_edit_order_price": true,
+        "is_gantt_view": true,
+        "gantt_config": {
+          "duration_task": "30",
+          "duration_average": "10",
+          "transit_state": 58
+        },
+        "allow_comments": true,
+        "allow_attach_files": true,
+        "is_self_assign": true,
+        "self_assign_task": {
+          "states": [57],
+          "assigned_state": 58
+        },
+        "is_task_priority": true,
+        "is_chrome_extension": false,
+        "is_link": false,
+        "pp_submitbtn_text": "submit",
+        "is_extension_active": true,
+        "extension_settings": {
+          "repeative_col": ["COL38", "COL13"],
+          "task_intial_state": "",
+          "task_final_state": 58,
+          "screen_capture_interval": 2,
+          "default_tags": ["new1", "new2"],
+          "task_initial_state": 57
+        },
+        "is_meeting": false,
+        "meeting_config": {
+          "duration": "15",
+          "minute_before": "15",
+          "confirmation_by": "email",
+          "collection_cann_name": "df_CHAN12",
+          "default_venue": "COL2",
+          "comm_interface_col": "COL11",
+          "template": 557
+        },
+        "logo": "https://feetport-ssd.s3.ap-south-1.amazonaws.com/v2/678/fm/general/picture/New Folder/pngwing.com (2)1596865576498.png",
+        "is_auto_allocation": true,
+        "order_collection": "df_CARMOS",
+        "allow_location": true,
+        "notify_assign_user": true,
+        "notify_creator": true,
+        "notify_reply_thread": true,
+        "notify_tag_users": true,
+        "is_auto_report": true,
+        "is_auto_report_roles": [26, 317, -4]
+      },
+      "state": [{
+        "state": 57,
+        "state_label": "Insert",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": true,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "is_allow_delete_task": false,
+        "closure_otp_card_title": "Closure by SMS",
+        "closure_otp_card_content": "Company has mandated closure of every task to be done with validating SMS OTP",
+        "closure_otp_subject": "OTP verification",
+        "closure_otp_template_content": "Your authentication OTP for FeetPort is {{otp}}",
+        "closure_otp_type": "none",
+        "closure_otp_field": "Phone 2"
+      }, {
+        "state": 58,
+        "state_label": "Mobile",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": true,
+        "is_i_am_here": true,
+        "is_allow_edit_web_fields": true,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": ["mswipe"],
+        "is_allow_delete_task": true,
+        "is_checkin_geofence": true,
+        "is_payment": false,
+        "is_cash_payment": false,
+        "is_minimum_time_to_finish": false,
+        "is_allow_retrieve_task": false,
+        "closure_otp_card_title": "Closure by SMS",
+        "closure_otp_card_content": "Company has mandated closure of every task to be done with validating SMS OTP",
+        "closure_otp_template_content": "Your authentication OTP for FeetPort is {{otp}}",
+        "closure_otp_subject": "OTP verification",
+        "closure_otp_field": "Phone 2",
+        "task_retrieve_states": [58, 59],
+        "task_retrieve_timeout": 5,
+        "checkin_geofence_radius": 5000,
+        "is_checkin_geofence_mandatory": true,
+        "is_finish_geofence": true,
+        "finish_geofence_radius": 5000,
+        "finish_geofence_coordinate_source": "collection",
+        "is_finish_geofence_mandatory": true,
+        "is_allow_manual_defer_task": false,
+        "closure_otp_type": "none",
+        "is_quotation_email": false,
+        "quotation_label": "Quotation",
+        "quotation_field": "Email",
+        "quotation_template": "default",
+        "is_bind_i_am_here_data": false,
+        "i_am_here_data": [{
+          "checkin_value": "House number",
+          "checkin_field": "Address with cordinates"
+        }, {
+          "checkin_value": "Sector",
+          "checkin_field": "Address with cordinates"
+        }, {
+          "checkin_value": "City",
+          "checkin_field": "Text field"
+        }, {
+          "checkin_value": "State",
+          "checkin_field": "Address with cordinates"
+        }, {
+          "checkin_value": "Country",
+          "checkin_field": "Text field"
+        }, {
+          "checkin_value": "Zipcode",
+          "checkin_field": "Information"
+        }, {
+          "checkin_value": "Full address",
+          "checkin_field": "Department"
+        }],
+        "checkin_geofence_coordinate_source": "collection",
+        "is_choose_customer_on_create": true,
+        "is_i_am_here_once": true,
+        "is_closure_message": false
+      }, {
+        "state": 59,
+        "state_label": "Finish",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "sms",
+        "closure_is_marks": false,
+        "is_allow_manual_task": false,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "closure_otp_type": "TOTP",
+        "is_quotation_email": false,
+        "quotation_label": "Quotation",
+        "quotation_field": "Email",
+        "quotation_template": "default",
+        "closure_otp_card_title": "Closure by SMS T OTP",
+        "closure_otp_card_content": "Company has mandated closure of every task to be done with validating SMS OTP",
+        "closure_otp_template_content": "Your authentication OTP for FeetPort is {{otp}}",
+        "closure_otp_field": "Phone 2"
+      }, {
+        "state": 60,
+        "state_label": "Approved",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": true,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": true,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "is_allow_delete_task": true,
+        "is_callback_api": false,
+        "callback_api_config": {
+          "api": "none",
+          "data": []
+        },
+        "is_ts_record": false,
+        "closure_otp_type": "none"
+      }, {
+        "state": 61,
+        "state_label": "Disapproved",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": false,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "closure_otp_type": "none"
+      }, {
+        "state": 62,
+        "state_label": "Re assign",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": false,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "closure_otp_type": "none"
+      }, {
+        "state": 63,
+        "state_label": "Public",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": true,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "closure_tab_title": "Closure",
+        "payment_way": [],
+        "is_allow_delete_task": false,
+        "closure_otp_type": "none"
+      }, {
+        "state": 369,
+        "state_label": "Hold",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": true,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "is_allow_delete_task": false,
+        "closure_otp_type": "none"
+      }, {
+        "state": 549,
+        "state_label": "Test permission",
+        "movement_state_label": "[{\"action\":\"HOLD\",\"state\":\"\",\"label\":\"\",\"avail\":false},{\"action\":\"FINISH\",\"state\":\"58\",\"label\":\"test mobile\",\"avail\":true},{\"action\":\"RETURN\",\"state\":\"\",\"label\":\"\",\"avail\":false},{\"action\":\"WEB_MOVEMENT\",\"state\":\"\",\"w_states\":[]}]",
+        "closure_form_radius": "",
+        "closure_form_on": "",
+        "closure_image_radius": "",
+        "closure_image_on": "",
+        "closure_otp": "none",
+        "closure_is_marks": false,
+        "is_allow_manual_task": false,
+        "is_i_am_here": false,
+        "is_allow_edit_web_fields": false,
+        "is_scheduler": false,
+        "move_state_if_value": [],
+        "is_override_task_movement": false,
+        "payment_by": "",
+        "initiate_type": "none",
+        "payment_way": [],
+        "closure_otp_type": "none"
+      }],
+      "pdf": {
+        "is_logo": true,
+        "logo_type": "activity",
+        "h1": "territory",
+        "h2": "activity",
+        "h3": "cname",
+        "h4": "hierarchy",
+        "h5": "muser",
+        "is_map": true,
+        "task_fields": ["Text field", "new date d-m-yy", "Phone 2", "NFC 4", "Signature 3", "Basic Informations", "Game venue", "attachment", "Collection drop down mapping", "Rating / Review", "Email", "Single Selection", "Location 14", "Video 15", "Photo", "Single Selection 14", "Date / Time", "Video"],
+        "order_fields": [],
+        "general_fields": ["created_on", "assigned_on", "initiate_on", "completed_on", "state"],
+        "footer_text": "FeetPort is a trademark of Competent Groove Private Limited",
+        "price_label_as": "Unit price",
+        "price_qty_as": "Quantity",
+        "price_total_as": "Total"
+      },
+      "esign": {
+        "signdesk": {
+          "widget_title": "FeetPort",
+          "background_color": "f2f2f2",
+          "button_color": "f5821f",
+          "button_font_color": "f5821f",
+          "font_family": "arial",
+          "esign_with_otp_button_text": "Submit",
+          "esign_with_biometric_button_text": "Esign",
+          "user_instruction": "1st instructions",
+          "remark_field_label": "remarks",
+          "usb_signature_title": "usb signature"
+        }
+      },
+      "chrome": {
+        "extension": {
+          "repeative_col": ["Search"],
+          "task_intial_state": "",
+          "task_final_state": 62,
+          "screen_capture_interval": 0,
+          "default_tags": [],
+          "task_initial_state": 57
+        }
+      },
+      "linking": [],
+      "task_approval": [{
+        "department": "It",
+        "assignment": [{
+          "state": 57,
+          "state_label": "Insert",
+          "label": "Insert",
+          "assignee": [{
+            "user_id": 4531,
+            "condition": []
+          }]
+        }, {
+          "state": 58,
+          "state_label": "Mobile",
+          "label": "Mobile",
+          "assignee": [{
+            "user_id": 4531,
+            "condition": []
+          }]
+        }, {
+          "state": 59,
+          "state_label": "Finish",
+          "label": "Finish",
+          "assignee": [{
+            "user_id": 6437,
+            "condition": []
+          }]
+        }, {
+          "state": 60,
+          "state_label": "Approved",
+          "label": "Approved",
+          "assignee": [{
+            "user_id": 5332,
+            "condition": []
+          }]
+        }, {
+          "state": 61,
+          "state_label": "Disapproved",
+          "label": "Disapproved",
+          "assignee": [{
+            "user_id": 5332,
+            "condition": []
+          }]
+        }, {
+          "state": 62,
+          "state_label": "Re assign",
+          "label": "Re assign",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 63,
+          "state_label": "Public",
+          "label": "Public",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 369,
+          "state_label": "Hold",
+          "label": "Hold",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }],
+        "expanded": false,
+        "is_self_assign": true
+      }, {
+        "department": "groove",
+        "assignment": [{
+          "state": 57,
+          "state_label": "Insert",
+          "label": "Insert",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 58,
+          "state_label": "Mobile",
+          "label": "Mobile",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 59,
+          "state_label": "Finish",
+          "label": "Finish",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 60,
+          "state_label": "Approved",
+          "label": "Approved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 61,
+          "state_label": "Disapproved",
+          "label": "Disapproved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 62,
+          "state_label": "Re assign",
+          "label": "Re assign",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 63,
+          "state_label": "Public",
+          "label": "Public",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 369,
+          "state_label": "Hold",
+          "label": "Hold",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }],
+        "expanded": false
+      }, {
+        "department": "MIS",
+        "assignment": [{
+          "state": 57,
+          "state_label": "Insert",
+          "label": "Insert",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 58,
+          "state_label": "Mobile",
+          "label": "Mobile",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 59,
+          "state_label": "Finish",
+          "label": "Finish",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 60,
+          "state_label": "Approved",
+          "label": "Approved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 61,
+          "state_label": "Disapproved",
+          "label": "Disapproved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 62,
+          "state_label": "Re assign",
+          "label": "Re assign",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 63,
+          "state_label": "Public",
+          "label": "Public",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 369,
+          "state_label": "Hold",
+          "label": "Hold",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }],
+        "expanded": false
+      }, {
+        "department": "Production",
+        "assignment": [{
+          "state": 57,
+          "state_label": "Insert",
+          "label": "Insert",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 58,
+          "state_label": "Mobile",
+          "label": "Mobile",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 59,
+          "state_label": "Finish",
+          "label": "Finish",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 60,
+          "state_label": "Approved",
+          "label": "Approved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 61,
+          "state_label": "Disapproved",
+          "label": "Disapproved",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 62,
+          "state_label": "Re assign",
+          "label": "Re assign",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 63,
+          "state_label": "Public",
+          "label": "Public",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }, {
+          "state": 369,
+          "state_label": "Hold",
+          "label": "Hold",
+          "assignee": [{
+            "user_id": "none",
+            "condition": []
+          }]
+        }],
+        "expanded": false
+      }]
+    }],
+    "form_interfaces": [{
+      "state_type": "all",
+      "category": "custom",
+      "is_visible": true,
+      "access": "3",
+      "collection_used_for": "none",
+      "dependency": [{
+        "values": [],
+        "show": [],
+        "hide": [],
+        "disabled": [],
+        "editable": []
+      }],
+      "state": [],
+      "for": ["activity"],
+      "interface_id": 40,
+      "type": "Page break",
+      "icon": "flip_to_front",
+      "isPriority": false,
+      "default_page_lock_mode": "open",
+      "page_unlock_parent": "",
+      "label_name": "Basic information",
+      "isDuplicateValidation": false,
+      "uuid": "3bf9d4f1-609d-4c3a-942b-eb2334306c36",
+      "subfields": [{
+        "state_type": "all",
+        "category": "custom",
+        "is_visible": true,
+        "access": "1",
+        "for": ["activity"],
+        "interface_id": 41,
+        "type": "Header",
+        "label_name": "Information",
+        "icon": "flip_to_front",
+        "default_page_lock_mode": "locked",
+        "page_unlock_parent": "",
+        "uuid": "a40086db-98bf-455d-9caf-5580b2b795dd",
+        "subfields": [{
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "populate",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 42,
+          "score_empty": "0",
+          "type": "Name",
+          "sub_type": "single",
+          "icon": "sort_by_alpha",
+          "isPriority": true,
+          "label_name": "Customer full name",
+          "default_type": "custom",
+          "is_priority_field": true,
+          "isDuplicateValidation": false,
+          "column_name": "COL65",
+          "collection_state": [58],
+          "collection": "df_CG_506",
+          "collection_item": "COL0",
+          "is_audio_input": false,
+          "uuid": "cbab1767-9f5e-4584-a0d7-eeee509bdfa5"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 4,
+          "score_empty": "0",
+          "type": "Phone",
+          "icon": "phone",
+          "sub_type": "phone",
+          "isPriority": true,
+          "label_name": "Contact number",
+          "default_type": "custom",
+          "is_priority_field": true,
+          "isDuplicateValidation": false,
+          "column_name": "COL67",
+          "uuid": "660639f9-c1fc-41f5-88a3-17a5c593f47a"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 78,
+          "score_empty": "0",
+          "type": "Email",
+          "icon": "email",
+          "isPriority": true,
+          "label_name": "Email",
+          "default_type": "custom",
+          "is_priority_field": true,
+          "isDuplicateValidation": false,
+          "column_name": "COL69",
+          "uuid": "2b3b1645-7f60-45de-b935-324225694307"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 51,
+          "score_empty": "0",
+          "type": "Search",
+          "icon": "search",
+          "isPriority": false,
+          "label_name": "Search",
+          "isDuplicateValidation": false,
+          "collection": "df_CG_506",
+          "collection_item": "COL0",
+          "uuid": "bd15bdc8-3783-49e4-b453-d2c7ec166206"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 1,
+          "score_empty": "0",
+          "type": "Text",
+          "icon": "text_format",
+          "sub_type": "single_line",
+          "order_field_type": "info",
+          "isPriority": true,
+          "label_name": "Text field",
+          "default_type": "custom",
+          "isDuplicateValidation": false,
+          "column_name": "COL49",
+          "priority": "",
+          "is_priority_field": false,
+          "is_long_information": true,
+          "long_info": "",
+          "uuid": "d6b5825a-67fe-4939-b790-d4200219c213"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 11,
+          "score_empty": "0",
+          "type": "Audio",
+          "min_length": "60",
+          "max_length": "600",
+          "icon": "record_voice_over",
+          "isPriority": false,
+          "label_name": "Audio 3",
+          "isDuplicateValidation": false,
+          "column_name": "COL57",
+          "uuid": "c556824e-6433-4077-9f39-7736314ea15c"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 17,
+          "score_empty": "0",
+          "type": "Date / Time",
+          "icon": "date_range",
+          "sub_type": "date",
+          "isPriority": true,
+          "label_name": "new date d-m-yy",
+          "is_priority_field": true,
+          "date_format": "D-M-YY",
+          "priority": "4",
+          "isDuplicateValidation": false,
+          "column_name": "COL59",
+          "uuid": "65480383-c68d-4937-ba8a-b4a7415a8bf4"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 4,
+          "score_empty": "0",
+          "type": "Phone",
+          "icon": "phone",
+          "sub_type": "phone",
+          "isPriority": true,
+          "label_name": "Phone 2",
+          "default_type": "custom",
+          "isDuplicateValidation": false,
+          "column_name": "COL43",
+          "is_audio_input": true,
+          "sub_label": "Phone",
+          "priority": "3",
+          "is_priority_field": true,
+          "uuid": "dc5173c5-fb17-4fb3-a833-01ef281cac75"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 88,
+          "score_empty": "0",
+          "type": "NFC",
+          "icon": "nfc",
+          "isPriority": false,
+          "sub_type": "default",
+          "label_name": "NFC 4",
+          "isDuplicateValidation": false,
+          "column_name": "COL45",
+          "uuid": "95a064e2-dfc9-47e1-9e9e-fe0f7fa14649"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 6,
+          "score_empty": "0",
+          "type": "Signature",
+          "media_Settings": {
+            "quality": "1",
+            "orientation": "1",
+            "overlay_date": "none",
+            "overlay_coordinates": false
+          },
+          "sub_type": "transparent",
+          "is_acknowledgement_page": true,
+          "icon": "border_color",
+          "isPriority": false,
+          "label_name": "Signature 3",
+          "isDuplicateValidation": false,
+          "column_name": "COL41",
+          "acknowledgement_type": "link",
+          "acknowledgement_text": "Groove",
+          "uuid": "ee74019a-920f-45ab-af44-4c84b1197e22"
+        }]
+      }, {
+        "state_type": "custom",
+        "category": "custom",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "for": ["activity"],
+        "interface_id": 41,
+        "type": "Header",
+        "icon": "short_text",
+        "isPriority": false,
+        "label_name": "Basic Informations",
+        "isDuplicateValidation": false,
+        "uuid": "3b04cb08-f87f-446e-ad01-ffcef0c1c8d3",
+        "subfields": [{
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "populate",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 43,
+          "score_empty": "0",
+          "type": "Address",
+          "sub_type": "single",
+          "icon": "my_location",
+          "isPriority": true,
+          "label_name": "Game venue",
+          "isDuplicateValidation": false,
+          "column_name": "COL2",
+          "default_type": "custom",
+          "is_required": false,
+          "collection_state": [57, 58, 59, 60, 61],
+          "collection": "df_CHAN12",
+          "collection_item": "COL1",
+          "is_priority_field": true,
+          "is_default_address_for_planner": true,
+          "is_default_for_coordinates_conversion": false,
+          "priority": "1",
+          "uuid": "478c5095-1df2-4c01-aa82-662c2b01256b"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 89,
+          "score_empty": "0",
+          "type": "File",
+          "icon": "attach_file",
+          "isPriority": false,
+          "file_types": [],
+          "sub_type": "default",
+          "label_name": "attachment",
+          "isDuplicateValidation": false,
+          "column_name": "COL9",
+          "file_selectors": ["default"],
+          "uuid": "1f5780a5-daa3-4494-990c-acacba9c6307"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "populate",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 48,
+          "score_empty": "0",
+          "type": "Single Selection",
+          "icon": "done",
+          "sub_type": "dropdown",
+          "options": [{
+            "label": "Yes",
+            "marks": ""
+          }, {
+            "label": "no",
+            "marks": " "
+          }],
+          "isPriority": true,
+          "label_name": "Collection drop down mapping",
+          "collection": "df_CHAN12",
+          "isDuplicateValidation": false,
+          "collection_state": [57, 58, 59, 60, 61],
+          "collection_item": "COL7",
+          "column_name": "COL21",
+          "is_long_information": true,
+          "long_info": "<div><!--block--><strong>Over the duration of this course,</strong> you interact with the GitHub Learning bot which makes learning fun and effective.</div>",
+          "uuid": "022a0764-f238-4217-83d2-a766808f4e62"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 47,
+          "score_empty": "0",
+          "type": "Rating",
+          "sub_type": "numeric",
+          "icon": "rate_review",
+          "isPriority": true,
+          "label_name": "Rating / Review",
+          "isDuplicateValidation": false,
+          "column_name": "COL5",
+          "default_type": "custom",
+          "is_priority_field": true,
+          "priority": "2",
+          "uuid": "93dcc106-cf50-4d8c-9a52-66df0ca8d831"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 48,
+          "score_empty": "0",
+          "type": "Single Selection",
+          "icon": "done",
+          "sub_type": "dropdown",
+          "options": [{
+            "label": "yes",
+            "marks": ""
+          }, {
+            "label": "no",
+            "marks": " "
+          }],
+          "isPriority": true,
+          "label_name": "Single Selection",
+          "isDuplicateValidation": false,
+          "column_name": "COL13",
+          "collection_state": [57, 58, 59, 60, 61, 62, 63],
+          "collection": "df_CHAN12",
+          "collection_item": "COL7",
+          "is_priority_field": false,
+          "priority": "",
+          "uuid": "d6c8e33d-1b35-4d15-a619-d51ac960a969"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 79,
+          "score_empty": "0",
+          "type": "Location",
+          "sub_type": "without_address",
+          "icon": "location_on",
+          "isPriority": false,
+          "label_name": "Location 14",
+          "default_type": "custom",
+          "isDuplicateValidation": false,
+          "default_value": "",
+          "column_name": "COL15",
+          "is_only_my_location": true,
+          "is_required": false,
+          "is_default_address_for_planner": true,
+          "uuid": "d12d252b-cf4d-42b8-99a2-c8ed36c871c9"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 50,
+          "min_length": "60",
+          "max_length": "600",
+          "media_Settings": {
+            "quality": "1",
+            "overlay_date": "none",
+            "overlay_coordinates": false
+          },
+          "score_empty": "0",
+          "type": "Video",
+          "icon": "videocam",
+          "isPriority": true,
+          "label_name": "Video 15",
+          "isDuplicateValidation": false,
+          "sub_type": "with_audio",
+          "column_name": "COL47",
+          "uuid": "8180ba89-41bc-4e6d-970d-8cb30e831de1"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 11,
+          "score_empty": "0",
+          "type": "Audio",
+          "min_length": "60",
+          "max_length": "600",
+          "icon": "record_voice_over",
+          "isPriority": false,
+          "label_name": "Audio",
+          "is_required": false,
+          "isDuplicateValidation": false,
+          "column_name": "COL17",
+          "uuid": "dfa5c29d-9cf5-4ff0-92b5-9c9156d5dfeb"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 5,
+          "score_empty": "0",
+          "type": "Photo",
+          "sub_type": "both",
+          "media_Settings": {
+            "overlay_date": "timestamp",
+            "overlay_coordinates": true,
+            "quality": "1",
+            "orientation": "1"
+          },
+          "icon": "add_a_photo",
+          "isPriority": false,
+          "label_name": "Photo",
+          "isDuplicateValidation": false,
+          "column_name": "COL20",
+          "uuid": "3f7b4407-7361-4586-97ab-7db3d05df6cf"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 90,
+          "score_empty": "0",
+          "type": "Button",
+          "icon": "crop_16_9",
+          "isPriority": false,
+          "file_types": [],
+          "sub_type": "default",
+          "label_name": "Button",
+          "is_long_information": false,
+          "isDuplicateValidation": false,
+          "column_name": "COL39",
+          "uuid": "df3a9358-60b4-46b4-a29f-60e8d705c0f6"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 48,
+          "score_empty": "0",
+          "type": "Single Selection",
+          "icon": "done",
+          "sub_type": "dropdown",
+          "options": [{
+            "label": "Yes",
+            "marks": "",
+            "score": "5"
+          }, {
+            "label": "No",
+            "marks": " ",
+            "score": "0"
+          }],
+          "isPriority": true,
+          "label_name": "Single Selection 14",
+          "isDuplicateValidation": false,
+          "column_name": "COL37",
+          "uuid": "13765ef9-47e7-4634-aa2f-2cdd5a1ea8a7"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 17,
+          "score_empty": "0",
+          "type": "Date / Time",
+          "icon": "date_range",
+          "sub_type": "date",
+          "isPriority": true,
+          "label_name": "Date / Time",
+          "isDuplicateValidation": false,
+          "column_name": "COL38",
+          "priority": "",
+          "is_priority_field": false,
+          "date_format": "DD-MM-YYYY",
+          "uuid": "c6997f2c-d209-4ec2-a5a4-1eb6f60fcfc6"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 50,
+          "min_length": "60",
+          "max_length": "600",
+          "media_Settings": {
+            "quality": "1",
+            "overlay_date": "none",
+            "overlay_coordinates": false
+          },
+          "score_empty": "0",
+          "type": "Video",
+          "icon": "videocam",
+          "isPriority": true,
+          "label_name": "Video",
+          "isDuplicateValidation": false,
+          "column_name": "COL51",
+          "uuid": "e132c05a-8b76-47a5-a544-fe3a2288b2f4"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "3",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 89,
+          "score_empty": "0",
+          "type": "File",
+          "icon": "attach_file",
+          "isPriority": false,
+          "file_types": [],
+          "sub_type": "default",
+          "label_name": "File attachment",
+          "isDuplicateValidation": false,
+          "column_name": "COL53",
+          "uuid": "ef3af367-825f-4505-84ed-fd3a876865d9"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity"],
+          "interface_id": 48,
+          "score_empty": "0",
+          "type": "Single Selection",
+          "icon": "done",
+          "sub_type": "dropdown",
+          "options": [{
+            "label": "It",
+            "marks": ""
+          }, {
+            "label": "groove",
+            "marks": " "
+          }, {
+            "label": "MIS",
+            "marks": " "
+          }, {
+            "label": "Production",
+            "marks": " "
+          }],
+          "isPriority": true,
+          "label_name": "Department",
+          "is_department": true,
+          "isDuplicateValidation": false,
+          "column_name": "COL55",
+          "is_priority_field": false,
+          "priority": "",
+          "is_long_information": true,
+          "long_info": "<div><!--block--><strong>Over the duration of this course,</strong> you interact with the GitHub Learning bot which makes learning fun and effective.</div>",
+          "uuid": "f65ff969-398b-4d20-b775-6466890d97db"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 43,
+          "score_empty": "0",
+          "type": "Address",
+          "sub_type": "single",
+          "icon": "my_location",
+          "isPriority": true,
+          "label_name": "Address with cordinates",
+          "default_type": "custom",
+          "is_priority_field": false,
+          "isDuplicateValidation": false,
+          "column_name": "COL61",
+          "priority": "",
+          "uuid": "dd67df5a-419a-46e9-9984-8e74219c5108"
+        }]
+      }]
+    }, {
+      "state_type": "all",
+      "category": "custom",
+      "is_visible": true,
+      "access": "3",
+      "collection_used_for": "none",
+      "dependency": [{
+        "values": [],
+        "show": [],
+        "hide": [],
+        "disabled": [],
+        "editable": []
+      }],
+      "state": [],
+      "for": ["activity"],
+      "interface_id": 40,
+      "type": "Page break",
+      "icon": "flip_to_front",
+      "isPriority": false,
+      "default_page_lock_mode": "open",
+      "page_unlock_parent": "",
+      "label_name": "Family information",
+      "isDuplicateValidation": false,
+      "uuid": "cde95259-0c11-44de-8d1c-9937eaf38d2a",
+      "subfields": [{
+        "state_type": "all",
+        "category": "custom",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "for": ["activity"],
+        "interface_id": 41,
+        "type": "Header",
+        "icon": "short_text",
+        "isPriority": false,
+        "label_name": "Family",
+        "isDuplicateValidation": false,
+        "uuid": "a90fb040-0ead-4440-8b43-be6e7be32872",
+        "subfields": [{
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 42,
+          "score_empty": "0",
+          "type": "Name",
+          "sub_type": "single",
+          "icon": "sort_by_alpha",
+          "isPriority": true,
+          "label_name": "Father name",
+          "default_type": "custom",
+          "is_priority_field": true,
+          "isDuplicateValidation": false,
+          "column_name": "COL63",
+          "uuid": "67a460f1-f3c1-4e71-b319-fdb75dd74af5"
+        }, {
+          "state_type": "all",
+          "category": "custom",
+          "is_visible": true,
+          "access": "1",
+          "collection_used_for": "none",
+          "dependency": [{
+            "values": [],
+            "show": [],
+            "hide": [],
+            "disabled": [],
+            "editable": []
+          }],
+          "state": [],
+          "qr_code": [],
+          "for": ["activity", "collection"],
+          "interface_id": 4,
+          "score_empty": "0",
+          "type": "Number",
+          "icon": "filter_1",
+          "sub_type": "int",
+          "isPriority": true,
+          "label_name": "Age",
+          "isDuplicateValidation": false,
+          "column_name": "COL64",
+          "uuid": "44e718af-b6fa-40f8-baa5-bbe7489c3c56"
+        }]
+      }, {
+        "state_type": "all",
+        "category": "custom",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "for": ["activity"],
+        "interface_id": 41,
+        "type": "Header",
+        "icon": "short_text",
+        "isPriority": false,
+        "label_name": "Header 33",
+        "isDuplicateValidation": false,
+        "uuid": "114672d2-441e-4b57-bde9-e551d3e27262"
+      }]
+    }],
+    "other_data": {
+      "type": "activity",
+      "sub_type": "",
+      "org_level": [],
+      "order": [{
+        "state_type": "all",
+        "category": "custom",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 51,
+        "score_empty": "0",
+        "type": "Search",
+        "icon": "search",
+        "order_field_type": "search",
+        "isPriority": false,
+        "label_name": "Search",
+        "collection": "df_CARMOS",
+        "collection_item": "COL0"
+      }, {
+        "state_type": "all",
+        "category": "product_name",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 1,
+        "score_empty": "0",
+        "type": "Information",
+        "icon": "text_format",
+        "sub_type": "single_line",
+        "order_field_type": "info",
+        "isPriority": true,
+        "label_name": "Product name",
+        "collection": "df_CARMOS",
+        "collection_item": "COL0",
+        "default_type": "custom",
+        "is_data_from_collection": true,
+        "is_priority_field": true
+      }, {
+        "state_type": "all",
+        "category": "quantity",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 4,
+        "score_empty": "0",
+        "type": "Quantity",
+        "icon": "exposure_plus_1",
+        "sub_type": "int",
+        "order_field_type": "quantity",
+        "isPriority": true,
+        "label_name": "Quantity",
+        "collection": "df_GG_402",
+        "collection_item": "COL0",
+        "is_audio_input": true,
+        "is_data_from_collection": false,
+        "default_type": "custom",
+        "is_priority_field": true
+      }, {
+        "state_type": "all",
+        "category": "price",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 4,
+        "score_empty": "0",
+        "type": "Price",
+        "icon": "attach_money",
+        "sub_type": "int",
+        "order_field_type": "price",
+        "isPriority": true,
+        "label_name": "Price",
+        "collection": "df_GG_402",
+        "collection_item": "COL3",
+        "is_data_from_collection": true,
+        "default_type": "custom",
+        "is_priority_field": true
+      }, {
+        "state_type": "all",
+        "category": "total",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 4,
+        "score_empty": "0",
+        "type": "Total",
+        "icon": "functions",
+        "sub_type": "int",
+        "order_field_type": "total",
+        "isPriority": true,
+        "label_name": "Sub Total"
+      }, {
+        "state_type": "all",
+        "category": "grand_total",
+        "is_visible": true,
+        "access": "1",
+        "collection_used_for": "none",
+        "dependency": [{
+          "values": [],
+          "show": [],
+          "hide": [],
+          "disabled": [],
+          "editable": []
+        }],
+        "state": [],
+        "qr_code": [],
+        "for": ["order"],
+        "interface_id": 4,
+        "score_empty": "0",
+        "type": "Total",
+        "icon": "functions",
+        "sub_type": "int",
+        "order_field_type": "total",
+        "isPriority": true,
+        "label_name": "Grand Total"
+      }],
+      "select_for_move": [],
+      "label_name": "Games",
+      "code": "G_8195",
+      "workflow": 39,
+      "action": "update",
+      "id": 4016,
+      "is_ios": true
+    },
+    "company_info": {
+      "digilocker_app": "com.competentgroove",
+      "digilocker_key": "RUumoUYNwvbgBTgZ5ryR",
+      "currency": "₹",
+      "task_priority_type": "global",
+      "unique_code": "678",
+      "company_name": "FeetPort Test Organization",
+      "Company_Address": "Mohali",
+      "logo": "https://feetport-cdn-m.s3.ap-south-1.amazonaws.com/logo/bakary.png",
+      "primary_color": "#42f5a4",
+      "primary_dark_color": "#046cb3",
+      "lat_long": "30.7046486,76.71787259999999",
+      "license_type": "pro",
+      "description": "Competent Grooveis a concord of like-minded professionals who aspire to make a dent in the field of software development. Competent Groove aims to design experiences with a difference. It aims at designing from the heart, executing from the head and implementing through the hand. The synergy created through the symbiosis of the Head, Heart and Hand will surely create things that are extra- ordinary.",
+      "web_address": "https://www.competentgroove.com",
+      "email": "sidharath+bcci@competentgroove.com",
+      "scheme": "https://",
+      "root_domain": "https://demo.feetport.app",
+      "logo_url": "https://feetport-cdn-m.s3.ap-south-1.amazonaws.com/logo/bakary.png",
+      "is_scheduler": 0,
+      "razorpay_key": "rzp_test_3zmnvqK2z9nhLJ",
+      "comm_type": "email",
+      "default_comm": "email",
+      "gmaps_api_id": "AIzaSyCsIElsW6DfAskgJcY5WkPx0G73Lkl49CY",
+      "active_plan": "CREW"
+    },
+    "task_info": {}
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Chat">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+    <title>Chat</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+
+<style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border: 15px solid ;
+      border-top: 16px solid #4978F1;
+      border-right: 16px solid white;
+      border-bottom: 16px solid #4978F1;
+      border-left: 16px solid white;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+<body>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3A9I-XehoTqA8arWMa3G2peOR8iyeHjo>">-->
+
+<div class="loading">
+    <div class="loader"></div>
+</div>
+
+</script>
+
+
+<!--
+
+     This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers
+
+      -->
+
+
+<script>
+    var fcm_token='';
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3314964232');
+        Notification.requestPermission().then(function(permission) {
+
+             console.log('permiss testing ', permission);
+              setTimeout(function(){
+
+                          console.log('permiss testing Second stage', permission);
+                            // surinder   9815087067
+                            // kamna 9041497979
+                            //   9041497979
+
+                         window.functionName("https://connect.feetport.app,kamna,pathak,9814406463,mZPP6Wf7ZswjtCwNaxWhHFZMoqwPMKMX,9122");
+                     }, 10000);
+
+        if(permission)
+        navigator.serviceWorker.register("firebase-messaging-sw.js");
+
+      });
+    });
+   }
+    const channel = new BroadcastChannel('sw-messages');
+       channel.addEventListener('message', event => {
+       fcm_token=event.data;
+        });
+
+    function pass_token(text) {
+      return fcm_token;
+  }
+
+
+            window.converge_options = {
+            url: "https://demo.feetport.com",
+            token: "mZPP6Wf7ZswjtCwNaxWhHFZMoqwPMKMX",
+            user: {
+            "first_name": "Gaurav",
+            "last_name": "Joshi"
+            },
+            uuid: "919041497979",
+            org:"9122"
+            }
+
+</script>
+
+
+<script src="main.dart.js" type="application/javascript">
+
+</script>
+</body>
+</html>
+
+
+<!--window.functionName();-->
+
+<!--
+setTimeout(function(){
+console.log('permiss testing DDDDDD', permission);
+window.functionName("https://demo.feetport.com,mahal,singh,9814406463,mZPP6Wf7ZswjtCwNaxWhHFZMoqwPMKMX");
+}, 10000);
+-->
