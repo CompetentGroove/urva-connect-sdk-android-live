@@ -1,10 +1,10 @@
 package competent.groove.samples.project
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.os.Handler
-//import com.vtsen.sydneysuburbs.Sydney
 
+import android.os.Bundle
+
+import android.os.Handler
 //import com.enefce.samples.androidlibdemo.R
 //import competent.groove.urvachat.model.UrvaConnectConfig
 //import competent.groove.urvaconnect.sdk.UrvaChat
@@ -17,14 +17,11 @@ import android.os.Handler
 
 //import github.tobsef.demo.HelloMaven;
 
-
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//Sydney
 //        orgCode: String?,
 //        username: String?,
 //        companyToken: String?,

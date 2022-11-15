@@ -11,18 +11,6 @@ plugins {
 //group = 'com.github.Harpreetcompetent'
 
 android {
-//    compileSdkVersion 30
-//    buildToolsVersion "30.0.2"
-//
-//    defaultConfig {
-//        minSdkVersion 21
-//        targetSdkVersion 30
-//        versionCode 1
-//        versionName "1.0"
-//
-//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-//        consumerProguardFiles "consumer-rules.pro"
-//    }
     compileSdkVersion 30
     defaultConfig {
         minSdkVersion 23
@@ -43,38 +31,29 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
 }
-
-
 dependencies {
-
-//    implementation(name:'flutter_release-1.0', ext:'aar')
     implementation fileTree(dir: 'libs', include: ['*.aar'])
-   // implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-//    implementation 'androidx.appcompat:appcompat:1.1.0'
-//    implementation 'androidx.core:core-ktx:1.1.0'
-//    testImplementation 'junit:junit:4.12'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    implementation project(':flutter')
-//    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
-//    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
+
+    debugImplementation 'competent.groove.urva_connect_sdk:flutter_debug:1.0'
+    releaseImplementation 'competent.groove.urva_connect_sdk:flutter_release:1.0'
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
 }
 
-//repositories {
-//    google()
-//    maven {
-//        url "https://storage.googleapis.com/download.flutter.io"
-//    }
-//    maven {
-//        url "libs/repo"
-//    }
-//    mavenCentral()
-//    mavenLocal()
-//}
+repositories {
+    google()
+    maven {
+        url "https://storage.googleapis.com/download.flutter.io"
+    }
+    maven {
+        url "libs/repo"
+    }
+    mavenCentral()
+    mavenLocal()
+}
+
 afterEvaluate {
     publishing {
         publications {
@@ -89,6 +68,3 @@ afterEvaluate {
         }
     }
 }
-
-//                groupId = 'com.github.Vipinbalakrishnan'
-//                artifactId = 'ribbonlayout'
