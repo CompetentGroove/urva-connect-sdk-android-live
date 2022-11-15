@@ -7,7 +7,7 @@ apply plugin: 'maven-publish'
 group = 'com.github.Harpreetcompetent'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 32
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 30
@@ -50,6 +50,9 @@ repositories {
     maven {
         url "libs/repo"
     }
+    maven {
+        url 'https://maven.google.com'
+    }
     mavenCentral()
     mavenLocal()
 }
@@ -78,7 +81,7 @@ afterEvaluate {
 
                 groupId = 'com.github.CompetentGroove'
                artifactId = 'urva-connect-sdk-android-live'
-                version = '1.3'
+                version = '1.4'
             }
         }
     }

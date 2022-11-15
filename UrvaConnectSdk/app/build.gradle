@@ -14,7 +14,7 @@ githubProperties.load(new FileInputStream(githubPropertiesFile))
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.enefce.samples.androidlibdemo"
+        applicationId "competent.groove.samples.project"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
