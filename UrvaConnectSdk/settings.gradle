@@ -1,0 +1,20 @@
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+//    }
+//}
+rootProject.name = "UrvaConnectSdk"
+include ':app'
+include ':urvachatsdk'
+
+//setBinding(new Binding([gradle: this]))
+//evaluate(new File(
+//        settingsDir.parentFile,
+//        'flutter_module/.android/include_flutter.groovy'
+//))
+//include ':flutter_module'
+//project(':flutter_module').projectDir = new File('../flutter_module')
+//include ':app', ':urvachatsdk'
