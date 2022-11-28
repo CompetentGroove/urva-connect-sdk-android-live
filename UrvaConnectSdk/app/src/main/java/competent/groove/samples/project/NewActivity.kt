@@ -25,8 +25,6 @@ class NewActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
 //        orgCode: String?,
 //        username: String?,
 //        companyToken: String?,
