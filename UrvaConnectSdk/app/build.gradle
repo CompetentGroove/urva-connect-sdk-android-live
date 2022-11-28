@@ -1,10 +1,8 @@
-//apply plugin: 'com.android.application'
+
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
-//apply plugin: 'kotlin-android'
-
-//apply plugin: 'kotlin-android-extensions'
 
 
 /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
@@ -40,33 +38,17 @@ android {
 dependencies {
 
 //    implementation fileTree(dir: 'libs', include: ['*.aar'])
-
-//Use SampleAndroidLib library
-
-
-   // implementation 'com.github.dk19121991:EmailValidator:1.5'
-// implementation 'com.enefce.libraries:sampleAndroidLib:1.0.1'
-// implementation 'competent.groove.urva:urvachatsdk:1.0.0'
-// Replace with the groupd id / package id and version number of library as required
-//    implementation  'github.tobsef.hello-maven:1.2.3'
-
-//    implementation 'competent.groove.urva:urvachatsdk:1.0.2'
-
-//            <groupId>competent.groove.urva</groupId>
-//  <artifactId>urvachatsdk</artifactId>
-//    <version>1.0.1</version>
-//  <packaging>aar</packaging>
-//
 //    implementation 'com.github.CompetentGroove:urva-connect-sdk-android-live:1.0.7'
 
-//    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-//    implementation 'androidx.core:core-ktx:1.1.0'
-//    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation "androidx.constraintlayout:constraintlayout:2.1.3"
-//    testImplementation 'junit:junit:4.12'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
 
 }
