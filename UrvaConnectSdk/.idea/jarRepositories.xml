@@ -81,5 +81,10 @@
       <option name="name" value="maven3" />
       <option name="url" value="file:$PROJECT_DIR$/urvachatsdk/libs/repo" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="file:$PROJECT_DIR$/app/libs/repo/" />
+    </remote-repository>
   </component>
 </project>
