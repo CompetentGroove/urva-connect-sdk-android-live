@@ -36,14 +36,9 @@ class NewActivity : Activity() {
 //        this.companyToken = companyToken
 //        this.first_name =first_name
 //        this.last_name=last_name
-
-
-  //      val config = UrvaConnectConfig("9122","harpreet","asdasd","harpreet","singh")
-//
+//      val config = UrvaConnectConfig("9122","harpreet","asdasd","harpreet","singh")
 //        val urvachat = UrvaChat(this)
 //          urvachat.init(config);
-//
-//
 //        Handler().postDelayed({
 //            //doSomethingHere()
 //
@@ -51,5 +46,7 @@ class NewActivity : Activity() {
         //Initialise the main class from the Sample Android Library module
 //        val sampleAndroidLibMain = SampleAndroidLibMain()
 //        tv_welcome.text = sampleAndroidLibMain.welcomeString
+
+
     }
 }
