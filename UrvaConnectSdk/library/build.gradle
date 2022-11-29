@@ -3,6 +3,10 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.kezong.fat-aar'
 
+apply plugin:  'maven-publish'
+
+
+
 android {
     compileSdkVersion 30
 
@@ -26,6 +30,21 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+// Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.CompetentGroove'
+                artifactId = 'urva-connect-sdk-android-live'
+                version = '1.3'
+            }
+        }
     }
 }
 
